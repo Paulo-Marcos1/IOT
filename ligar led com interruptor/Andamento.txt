@@ -1,0 +1,1 @@
+Falta conseguir fazer o botão desligar, só mudar o estadoButton pra LOW não desliga o buttonPin, entao o primeiro if ta rodando sempre que zera
