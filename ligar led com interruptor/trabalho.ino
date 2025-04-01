@@ -41,13 +41,11 @@ void loop(){
   }
 
   if(contador == 3 and estadoButton == HIGH){
+    contador = 0;
     digitalWrite(ledPin1, LOW);
     digitalWrite(ledPin2, LOW);
     digitalWrite(ledPin3, LOW);
-    contador = 0;
-    estadoButton = LOW;
-    
-    
+    delay(100);  
   }
 
 
